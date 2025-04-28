@@ -14,9 +14,6 @@ credit-card-fraud-detection/
 ├── notebooks/
 │   └── eda.ipynb                    # Exploratory Data Analysis
 │
-|──models/
-|  └── random_forest.pkl             # # automatically creates a This saves your trained model into the models/ directory.
-|
 ├── src/
 │   ├── preprocess.py                # Preprocessing steps
 │   ├── train_model.py               # Model training
@@ -49,7 +46,6 @@ credit-card-fraud-detection/
 pip install -r requirements.txt
 
 # Step 3: Make sure dataset is in data/creditcard.csv
-you need to dowloadfrom above mentioned as dataset and upload "credicard.csv" file in /data folder we are unable to upload as size is big.
 
 # Step 4: Run the main script or Train the model:
 python main.py
@@ -57,12 +53,10 @@ python main.py
 # Step 5: Evaluate the model:
 python src/evaluate.py
 
-#step 6: create a models directory to saves your trained model into the models/ directory.
-cd credit-card-fraud-detection/
-mkdir models
-
-
 ```
+
+---
+
 ## 🧪 Output Example
 
 When you run it, you’ll see output like:
@@ -107,3 +101,4 @@ ROC AUC: 0.97
 ---
 
 
+# -raji-credit-card-fraud-detection-
